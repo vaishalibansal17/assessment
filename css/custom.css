@@ -43,7 +43,7 @@ animation-duration: .4s;
 #scrollTop.show {opacity: 1;visibility: visible;}
 
 /*--header--*/
-.header .flexed{padding: 10px 6%;background: #fbfbfb;position: fixed;width: 100%;z-index: 999;}
+.header .flexed{padding: 10px 6%;background: #fbfbfb;position: relative;width: 100%;z-index: 999;}
 .header.inner .flexed{border-bottom: 1px solid #7070702b;}
 .navbar-inverse{background: transparent;border: none;margin: 0;}
 .navbar-inverse ul li a{font-size: 11px;text-align: center;color: #292929 !important;padding: 20px;background: transparent !important;}
