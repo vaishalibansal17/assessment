@@ -238,6 +238,8 @@ animation-duration: .4s;
 .console-content .custom-width{width: 650px;margin: 0 auto;}
 .console-content .height30{line-height: 40px;}
 ul.disc li{padding-left: 25px;margin-bottom: 8px;position: relative;color: #3e3d3d80;}
+ul.none{padding-left: 0px;margin-bottom: 8px}
+ul.none li:before{display: none;}
 ul.disc.black li{color: #3e3d3d;}
 ul.disc.black li:before{background: #3e3d3d;}
 ul.disc li:before{position: absolute;content:"";background:#3e3d3d80;height: 8px;width: 8px;border-radius: 50%;top: 9px;left: 0;}
