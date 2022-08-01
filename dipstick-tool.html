@@ -249,7 +249,7 @@
                         <p>Knowing is not enough.</p>
                         <p>Action is the name of the game</p>
                         <p>Relying on bystanders has been proven to be efficient<br><a
-                                href="why.html?id=whyHarNew">(Harvard Business Review
+                            href="harvard-business-review.html?id=harvard" class="link">(Harvard Business Review
                                 may 2020)</a></p>
                     </div>
                 </div>
@@ -358,7 +358,7 @@
             e.preventDefault();
             tempval = $(this).attr('href').split('#');
             if (tempval[1]) {
-                $('html, body').animate({ scrollTop: ($("#" + tempval[1]).offset().top - 10) }, 1000);
+                $('html, body').animate({ scrollTop: ($("#" + tempval[1]).offset().top - 150) }, 1000);
             }
         });
     </script>
@@ -370,7 +370,7 @@
             var fullurl = window.location.href;
             var divid = fullurl.split('?id=');
             if (divid[1]) {
-                $('html, body').animate({ scrollTop: ($("#" + divid[1]).offset().top - 10) }, 1000);
+                $('html, body').animate({ scrollTop: ($("#" + divid[1]).offset().top - 150) }, 1000);
             }
         });
     </script>

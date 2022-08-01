@@ -280,7 +280,7 @@
                     <div class="col-md-6">
                         <p>Focusing on bystanders rather than wrongdoers is efficient to
                             pushback against toxicity, </p>
-                        <p><a href="why.html?id=whyHarNew">(Harvard Business Review may 2020)</a></p>
+                        <p><a href="harvard-business-review.html?id=harvard" class="link">(Harvard Business Review may 2020)</a></p>
                         <p>A bystander can either directly send an anonymized feedback
                             or an anonymized report to HR</p>
 
@@ -484,7 +484,7 @@
             e.preventDefault();
             tempval = $(this).attr('href').split('#');
             if (tempval[1]) {
-                $('html, body').animate({ scrollTop: ($("#" + tempval[1]).offset().top - 10) }, 1000);
+                $('html, body').animate({ scrollTop: ($("#" + tempval[1]).offset().top - 150) }, 1000);
             }
         });
     </script>
@@ -496,7 +496,7 @@
             var fullurl = window.location.href;
             var divid = fullurl.split('?id=');
             if (divid[1]) {
-                $('html, body').animate({ scrollTop: ($("#" + divid[1]).offset().top - 10) }, 1000);
+                $('html, body').animate({ scrollTop: ($("#" + divid[1]).offset().top - 150) }, 1000);
             }
         });
     </script>

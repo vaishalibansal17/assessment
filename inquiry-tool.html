@@ -476,7 +476,7 @@
             e.preventDefault();
             tempval = $(this).attr('href').split('#');
             if (tempval[1]) {
-                $('html, body').animate({ scrollTop: ($("#" + tempval[1]).offset().top - 10) }, 1000);
+                $('html, body').animate({ scrollTop: ($("#" + tempval[1]).offset().top - 150) }, 1000);
             }
         });
     </script>
@@ -488,7 +488,7 @@
             var fullurl = window.location.href;
             var divid = fullurl.split('?id=');
             if (divid[1]) {
-                $('html, body').animate({ scrollTop: ($("#" + divid[1]).offset().top - 10) }, 1000);
+                $('html, body').animate({ scrollTop: ($("#" + divid[1]).offset().top - 150) }, 1000);
             }
         });
     </script>
