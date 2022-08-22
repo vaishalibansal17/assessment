@@ -27,7 +27,10 @@ div{position: relative;}
 .nav>li>a:focus, .nav>li>a:hover{background: transparent}
 .marbnone{margin-bottom: 0px;}
 .nav-tabs{border-bottom: none;}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{border-color: transparent !important;}
 h4 a{color: #1d1d1d;}
+.green-text{color: #01a2b1 !important}
+.console-content .text-sect img.custom-width85{width: 85%;}
 .progress .progress-bar {
 animation-name: animateBar;
 animation-iteration-count: 1;
@@ -50,21 +53,22 @@ animation-duration: .4s;
 .header .logo img{width: 115px;}
 .header.inner .flexed{border-bottom: 1px solid #7070702b;}
 .navbar-inverse{background: transparent;border: none;margin: 0;}
-.navbar-inverse ul li a{font-size: 11px;text-align: center;color: #292929 !important;background: transparent !important;border-radius: 8px;padding:7px 20px !important;margin: 12px 0px;border: 1px solid transparent;}
-.navbar-inverse ul:first-child li a:hover{border: 1px solid #01a2b1;}
-/* .navbar-inverse ul li .dropdown-menu a:hover{border-bottom: 1px solid #ccc;border: 1px solid transparent;} */
+.navbar-inverse ul li a{font-size: 12px;text-align: center;color: #292929 !important;background: transparent !important;border-radius: 8px;padding:5px 14px !important;margin: 12px 0px;border: 1px solid transparent;font-weight: 600;}
+.navbar-inverse ul li a:hover{background: #efefef !important;color: #000 !important;border-radius: 8px;}
+.navbar-inverse ul li:hover .dropdown-menu{display: block;}
 .navbar-inverse ul li .dropdown-menu.large a:hover{border: 1px solid transparent;}
 .navbar-inverse ul li .dropdown-menu a{margin: 0;}
-.navbar-inverse ul li.active a,.navbar-inverse ul li.active .dropdown-menu a:hover{font-weight: 600;color: #4cb6c2 !important;border: 1px solid transparent;}
-.navbar-inverse ul li.active .dropdown-menu a{color: #383838 !important;}
-.navbar-inverse ul li:last-child a{color: #ff1718 !important;border: 1px solid #ff1718;}
-.navbar-inverse ul li.active:last-child a{background: #ff1718 !important;border: 1px solid #ff1718;color: #fff !important;}
+.navbar-inverse ul li.active a,.navbar-inverse ul li.active .dropdown-menu a:hover{color: #000 !important;background: #efefef !important;}
+.navbar-inverse ul li.active .dropdown-menu a{color: #383838 !important;background: transparent !important;}
+.navbar-inverse ul li:last-child a{color: #000 !important;border: 1px solid #ff1718;padding: 5px 10px !important;}
+.navbar-inverse ul li:last-child a:hover,.navbar-inverse ul li.active:last-child a{background: #ff1718 !important;border: 1px solid #ff1718;color: #fff !important;background: transparent;}
 .navbar-inverse ul li i.fa{margin-left: 5px;font-size: 14px;}
-.navbar-inverse ul li .dropdown-menu{min-width: 220px;padding: 0;box-shadow: none;border: 1px solid #ccc;border-radius: 0px;border-bottom: none;z-index: 9999;}
-.navbar-inverse ul li .dropdown-menu a{display: block;width: 100%;padding: 8px 15px;border-bottom: 1px solid #ccc;text-align: left;border-radius: 0px;}
-.navbar-inverse ul li .dropdown-menu.large {width: 100vw;position: fixed;left: 0;top: 60px;min-height: 400px;padding: 20px 3%;border-bottom: 1px solid #ccc;}
+.navbar-inverse ul li .dropdown-menu{min-width: 230px;padding: 0;box-shadow: 0px 0px 10px #ddd;border: transparent;border-radius: 8px;border-bottom: none;z-index: 9999;}
+.navbar-inverse ul li .dropdown-menu a{display: block;width: 100%;padding: 8px 15px !important;border-bottom: 1px solid #ccc;text-align: left;border-radius: 0px;}
+.navbar-inverse ul li .dropdown-menu.large {width: 100vw;position: fixed;left: 0;top: 55px;min-height: 400px;padding: 20px 3%;border-bottom: 1px solid #ccc;}
 .navbar-inverse ul li .dropdown-menu.large p.head{flex-basis: 100%;text-align: center; font-family: Arvo;font-size: 21px;font-weight: bold;color: #3e3d3d;margin-bottom: 30px;position: relative;}
-.navbar-inverse ul li .dropdown-menu.large p.head a {border: none;padding: 0;text-align: center;font-size: inherit;text-decoration: none;}
+.navbar-inverse ul li .dropdown-menu.large p.head a {background:transparent !important;border: none;padding: 0;text-align: center;font-size: inherit;text-decoration: none;}
+.navbar-inverse ul li .dropdown-menu.large p.head a span:hover {color: #01a2b1 !important;}
 .navbar-inverse ul li .dropdown-menu.large p.head span{position: relative;font-weight: 600;}
 .navbar-inverse ul li .dropdown-menu.large p.head span:before{position: absolute;content:"";background: #e5e5e5;width: 200px;bottom: -8px;margin: 0 auto;left: 0;right: 0;height: 1.5px;}
 .navbar-inverse ul li .dropdown-menu.large p.head span:after{position: absolute;content:"";background: #000;height:1.5px;width: 50px;bottom: -8px;margin: 0 auto;left: 0;}
@@ -72,6 +76,7 @@ animation-duration: .4s;
 .navbar-inverse ul li .dropdown-menu.large .head-cols{flex-basis: 25%;padding-right: 10px;}
 .navbar-inverse ul li .dropdown-menu.large .head-cols a{opacity: 0.7;font-size: 14px;font-weight: 500;color: #3e3d3d;border-bottom: none;margin-bottom: 7px;padding-left: 55px;}
 .navbar-inverse ul li .dropdown-menu.large .head-cols a i.fa{float: right;position: relative;top: 5px;font-size: 16px;}
+.navbar-inverse ul li .dropdown-menu.large .head-cols a:hover i.fa{color: #4cb6c2;}
 .navbar-inverse ul li .dropdown-menu.large.hrheader .head-cols a i.fa{color: #4cb6c2;}
 .navbar-inverse ul li .dropdown-menu.large.hrheader .head-cols .heading a{max-width: 100%;min-height: 70px;}
 .navbar-inverse ul li .dropdown-menu.large .head-cols .heading{font-family: Arvo;font-weight: bold;color: #3e3d3d;display: inline-block;width: 300px;}
@@ -79,9 +84,9 @@ animation-duration: .4s;
 .navbar-collapse{padding: 0;}
 .navbar-inverse .navbar-toggle,.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{border: none;background: transparent;margin: 20px 0;padding: 0;}
 .navbar-inverse .navbar-toggle .icon-bar {background-color: #4cb6cf;}
-.header-clear-space{padding: 30px 0px;}
+.header-clear-space{padding: 27px 0px;}
 .navbar-inverse ul li .dropdown-menu.large .head-cols .heading a {padding-left: 0;font-weight: 600;font-size: 17px;color: #000 !important;max-width: 275px;}
-.navbar-inverse a[aria-expanded="true"] i.fa {transform: rotate(180deg);}
+.navbar-inverse ul li a[aria-expanded="true"] i.fa.fa-angle-up,.navbar-inverse ul li:hover i.fa.fa-angle-up {transform: rotate(180deg);}
 
 /*-banner--*/
 .banner{background: url(../images/bg.png) no-repeat center;background-size: cover;padding: 40px 10%;}
@@ -93,6 +98,7 @@ animation-duration: .4s;
 .banner h1 span{font-weight: 700;}
 .banner p{font-size: 23px;font-weight: 500;color: #000;}
 .banner p a{font-size: 13px;font-weight: 500;color: #ff1718;border: 1px solid #ff1718;border-radius: 30px;padding:15px 26px;margin-left: 15px}
+.banner p a:hover{background-color: #ff1718;color: #fff !important;text-decoration: none;}
 .banner h3{font-size: 16px;font-weight: 600;color: #000;}
 .banner .prog-bars, .inner-progress .prog-bars{box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.16);background: #fff;padding: 8px 15px;border-radius: 0px 30px 30px 0px;margin-bottom: 10px;}
 .banner .prog-bars p, .inner-progress .prog-bars p{font-size: 9px;font-weight: bold;color: #000;text-align: left;margin-bottom: 5px;line-height: 1;}
@@ -228,7 +234,7 @@ animation-duration: .4s;
 
 /*--console-screens--*/
 .res-space{padding: 30px 0px;}
-.scrolling-header{z-index:12;background: #fbfafa;font-size: 15px;color: #494949;display: flex;position: fixed;width: 100%;padding: 10px 3% 0px;top: 60px;text-align: center;align-items: center;justify-content: space-between;border-bottom: 1px solid #7070702b;}
+.scrolling-header{z-index:12;background: #fbfafa;font-size: 15px;color: #494949;display: flex;position: fixed;width: 100%;padding: 10px 3% 0px;top: 55px;text-align: center;align-items: center;justify-content: space-between;border-bottom: 1px solid #7070702b;}
 .scrolling-header a{color: #494949;padding-bottom: 10px;}
 .scrolling-header .active a{ color: #4cb6c2;font-weight: 700;}
 .scrolling-header .active:after{position: absolute;content:"";background: #4cb6c2;height: 3px;width: 100%;bottom: 0;left: 0;}

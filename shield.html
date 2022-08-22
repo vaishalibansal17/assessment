@@ -28,7 +28,7 @@
     <!--scroll-to-top-->
 
     <!--header-->
-    <header class="header inner">
+    <header class="header">
         <div class="flexed">
             <div class="logo">
                 <a href="index.html"><img src="images/logo.png" alt="JustEase"></a>
@@ -41,7 +41,7 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
-                        <li class="dropdown">
+                        <li class="dropdown active">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkEmployee"
                                 role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Employee Console <i class="fa fa-angle-up"></i>
@@ -171,7 +171,7 @@
                             </div>
                         </li>
                         <li><a href="pricing.html">Pricing</a></li>
-                        <li class="dropdown active">
+                        <li class="dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Resources & FAQs <i class="fa fa-angle-up"></i>
@@ -195,192 +195,303 @@
 
     <div class="header-clear-space"></div>
 
-    <!--banner-inner-->
-    <div class="banner-inner">
+    <!--scrolling-header-->
+    <div class="scrolling-header">
+        <div class="console-tabs"><a href="employee-console.html?id=anonymized1" class="interLink">Anonymized feedback to colleague</a>
+        </div>
+        <div class="console-tabs"><a href="employee-console.html?id=anonymized2-1" class="interLink">Anonymized reports to HR</a></div>
+        <div class="console-tabs"><a href="employee-console.html?id=bystander3-1" class="interLink">Bystander<br> Intervention</a></div>
+        <div class="console-tabs active"><a href="#shield4" class="scroll">Shields Against Anonymity Abuse</a></div>
+    </div>
+    <div class="res-space"></div>
+    <!--scrolling-header-->
+
+    <!--inner-content-console-->
+    <div class="console-content">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h2 class="arvo none">STUDIES: TOXICITY AND ATTRITION</h2>
+            <div class="text-sect text-left" id="shield4">
+                <h2><span>4</span>Shield Against Anonymity Abuse</h2>
+                <p class="big black">Anonymity protects senders of feedbacks or reports;</p>
+                <p>while our Shields protect their colleagues or HR from potential abuse of anonymity, by denying the
+                    abuser access to anonymity features.</p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img class="auto" src="images/em15.png" alt="Em">
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="arvo">Shields Against Anonymity Abuse</h3>
+                        <ul class="tick">
+                            <li>Automated shield against serial sender</li>
+                            <li>Automated shield against coordinated feedbacks</li>
+                            <li>Shield against abuse of Anonymized report to HR</li>
+                            <li>Automated Shield against attack from outside the company</li>
+                        </ul>
+                        <p class="black"><strong>While always providing a safety fall-back solution to the temporarily
+                                blocked sender.</strong></p>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <img src="images/why1.png" alt="Why">
+            </div>
+            <div class="text-sect" id="shield4-1">
+                <h2 class="two"><span>4.1</span>Automated shield against <br>serial sender of Anonymized Feedbacks </h2>
+                <p class="big black">Definition of serial sender:<br>An employee who abusively sends multiple feedbacks
+                    to the same or multiple colleagues.</p>
+                <img src="images/em16.png" alt="Em">
+            </div>
+            <div class="text-sect text-left">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/em17.png" alt="Em">
+                    </div>
+                    <div class="col-md-6">
+                        <p><strong>Serial sending could mean one of two situations:</strong></p>
+                        <ul class="disc black">
+                            <li>An abusive sender</li>
+                            <li>or a contributor surrounded by abusive colleagues</li>
+                        </ul>
+                        <p>In both situations, the employee cannot send any more feedbacks for 3 months.</p>
+                        <p>But the employee can report to HR anonymously or non-anonymously, if they feel surrounded by
+                            abusive colleagues. </p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!--banner-inner-->
-
-    <!--inner-content-console-->
-    <div class="inner-content console-content">
-        <div class="container">
-            <div class="expand-btns">
-                <a href="why.html" class="btn btn-collapse">View All</a>
-            </div>
-            <div class="accordion" id="accordionExample">
-                <div class="card">
-                    <div class="card-header" id="harvard">
-                        <button class="btn faq-head" type="button" data-toggle="collapse" data-target="#whyNew"
-                            aria-expanded="false" aria-controls="whyNew">
-                            Harvard Business Review: Why Sexual Harassment Programs Backfire
-                        </button>
+        <div class="steps">
+            <div class="container">
+                <h2> Automated shield against serial <br>sender is based on a 2-step algorithm</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <h4><img src="images/step1.png" alt="STEP1"><span class="text">STEP1<span
+                                        class="arvo">If:</span></span> </h4>
+                            <h5>Triggers:</h5>
+                            <p>A contributor sends feedbacks to <strong>4 colleagues</strong> within <strong>2
+                                    months</strong>.</p>
+                        </div>
                     </div>
-                    <div id="whyNew" class="collapse in" aria-labelledby="whynew" data-parent="#accordionExample">
-                        <div class="card-body">
-                            <p><strong>Excerpt</strong> <img src="images/why4.png" alt="Why"> May - June 2020</p>
-                            <p><a target="_blank"
-                                    href="https://hbr.org/2020/05/why-sexual-harassment-programs-backfire">https://hbr.org/2020/05/why-sexual-harassment-programs-backfire</a>
-                            </p>
-                            <p>Neither the training programs that most companies put all workers through nor the
-                                grievance procedures that they have implemented are helping to solve the problem of
-                                sexual harassment in the workplace. In fact, both tend to increase worker disaffection
-                                and turnover.</p>
-                            <p>Research shows that harassment training makes men more likely to blame the victims.</p>
-                            <p>Bystander-intervention training is the most promising alternative we’ve come across.
-                                Sharyn Potter and her team at the University of New Hampshire’s Prevention Innovation
-                                Research Center have long conducted interesting experiments with it on college campuses
-                                and military bases, where harassment and assault are rampant. A dozen years ago they
-                                piloted a college bystander-intervention program that has since been used on more than
-                                300 campuses. In 2011 it was adapted for the U.S. </p>
-                            <p>The figure — and the numbers — tell a clear story. From 2009 to 2019, the average monthly
-                                quit rate increased by 0.10 percentage points each year.
-                            </p>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <h4><img src="images/step2.png" alt="STEP2"><span class="text">STEP2 <span
+                                        class="arvo">Then:</span></span></h4>
+                            <h5>The Sender:</h5>
+                            <ul class="disc">
+                                <li>Can't send another feedback during 3 month</li>
+                                <li>Is invited to send anonymized Report to HR</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!--inner-content-->
-
-    <!--footer-->
-    <footer class="footer">
         <div class="container">
-            <div class="foot-sect">
-                <div class="foot-col">
-                    <div class="logo">
-                        <a href="index.html"><img src="images/logo.png" alt="JustEase"></a>
+            <div class="text-sect" id="shield4-2">
+                <h2 class="two"><span>4.2</span>Automated shield against coordinated feedbacks</h2>
+                <p class="big black">Being several to send abusive feedbacks to someone could seem to guarantee impunity
+                </p>
+                <img src="images/em18.png" alt="Em">
+            </div>
+            <div class="text-sect text-left">
+                <h2 class="three">Coordinated feedbacks: <br>Many employees coordinating with each other<br> to send
+                    feedback to one employee</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><strong>It Can Be Either:</strong></p>
+                        <p>Several colleagues sending feedback to the same employee could mean one of two situations</p>
+                        <ul class="disc black">
+                            <li>An especially abusive contributor</li>
+                            <li>A collective complot against some</li>
+                        </ul>
+                        <p>Both situations need HR intervention. HR is automatically alerted and they can easily and
+                            discreetly gauge this employee’s work environment toxicity using the “Targeted Toxicity
+                            Survey” feature.</p>
                     </div>
-                    <ul>
-                        <li><a href="mailto:Contactus@gmail.com"><img src="images/envelope.png"
-                                    alt="Envelope">Contactus@gmail.com</a></li>
-                        <li><a href="tel:+12482520831"><img src="images/flag1.png" alt="Flag">+1 248 252 0831</a></li>
-                        <li><a href="tel:+33783332553"><img src="images/flag2.png" alt="Flag">+33 7 83 33 25 53</a></li>
-                    </ul>
-                </div>
-                <div class="foot-col">
-                    <h4>Product</h4>
-                    <h5><a href="employee-console.html">Employee Console</a></h5>
-                    <ul>
-                        <li><a href="employee-console.html?id=anonymized1-1" class="scroll">Anonymized Toxicity
-                                Feedback</a></li>
-                        <li><a href="employee-console.html?id=anonymized1-3" class="scroll">Anonymized Non Toxicity
-                                Kudos</a></li>
-                        <li><a href="employee-console.html?id=bystander3-1" class="scroll">Bystander Intervention</a>
-                        </li>
-                        <li><a href="employee-console.html?id=anonymized2-1" class="scroll">Anonymized Report To HR</a>
-                        </li>
-                        <li><a href="employee-console.html?id=shield4" class="scroll">Shields Against Anonymity
-                                Abuse</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="foot-col">
-                    <h4 class="none">&nbsp;</h4>
-                    <h5><a href="hr-console.html">HR Console</a></h5>
-                    <ul>
-                        <li><a href="inquiry-tool.html">Inquiry Tools</a></li>
-                        <li><a href="action-tool.html">Action Tools</a></li>
-                        <li><a href="dipstick-tool.html">Dipstick Tools for HR</a></li>
-                        <li><a href="case.html">Case Management/Analytics</a></li>
-                    </ul>
-                </div>
-                <div class="foot-col">
-                    <h4 class="none">&nbsp;</h4>
-                    <h5><a href="pricing.html">Pricing</a></h5>
-                </div>
-                <div class="foot-col">
-                    <h4>Resources</h4>
-                    <ul>
-                        <li><a href="why.html">Studies: Toxicity and Attrition</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
-                        <li><a href="security.html">Security And Confidentiality</a></li>
-                    </ul>
-                </div>
-                <div class="foot-col">
-                    <h4>Who We Are?</h4>
-                    <ul>
-                        <li><a href="about-us.html">About Us</a></li>
-                        <li><a href="future-project.html">Future Projects</a></li>
-                        <li><a href="contact-us.html">Contact Us</a></li>
-                    </ul>
+                    <div class="col-md-6">
+                        <img src="images/em21.png" alt="Em">
+                    </div>
                 </div>
             </div>
         </div>
-    </footer>
-    <div class="bottom-footer">
-        <div class="container">
-            <ul class="social">
-                <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-            </ul>
-            <p>JustEase All Right Reserved <a href="#">Privacy Policy</a></p>
+        <div class="steps">
+            <div class="container">
+                <h2>Automated shield against coordinated <br>feedbacks is based on a 2-step algorithm</h2>
+                <div class="col-md-6">
+                    <div class="card">
+                        <h4><img src="images/step1.png" alt="STEP1"><span class="text">STEP1<span
+                                    class="arvo">If:</span></span> </h4>
+                        <h5>Triggers:</h5>
+                        <p>A contributor received feedbacks from<br> <strong>4 colleagues</strong> or more within
+                            <strong>2 months</strong>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <h4><img src="images/step2.png" alt="STEP2"><span class="text">STEP2 <span
+                                    class="arvo">Then:</span></span></h4>
+                        <h5>The Sender:</h5>
+                        <ul class="disc">
+                            <li>No more feedbacks are sent to the receiver.</li>
+                            <li>HR is informed of trouble in this part of the company.</li>
+                            <li>With name of the feedback recipient but not of senders.</li>
+                            <li>Suggesting a Targeted Toxicity Survey</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <!--footer-->
+    <div class="container console-content">
+        <div class="text-sect text-left" id="shield4-3">
+            <h2 class="two text-center"><span>4.3</span>Shield Against Abusive Anonymized Reports <br>to HR</h2>
+            <p class="black">Sending a fake anonymized report to HR might seem tempting and guaranteeing
+                impunity.
+                But the app. gives tools to HR to investigate (Short local toxicity survey, Anonymized chat with
+                reporter...)<br>
+                ...and to <strong>sanction</strong> abuse by temporarily blocking abuser's access to anonymized
+                features.
+            </p>
+            <p class="black">But not their access to non-anonymized complain to HR.</p>
+            <img src="images/em20.png" alt="Em">
+        </div>
+        <div class="text-sect text-left">
+            <h2 class="three text-center">If an employee continues to send <br>unsubstantiated anonymized reports to HR
+                <br>after been blocked once
+            </h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images/em19.png" alt="Em">
+                </div>
+                <div class="col-md-6">
+                    <p class="black"><strong>In rare cases, blocking an employee's anonymized reporting for 6 months
+                            might not
+                            be enough .</strong> </p>
+                    <p class="black"><strong>HR BP can then suspend their access to anonymized features for a
+                            year.</strong></p>
+                    <p class="black"><strong>But the employee keeps the option to send a complaint (not anonymized)
+                            to HR.</strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="text-sect text-left" id="shield4-4">
+            <h2 class="two text-center"><span>4.4</span>Automated shield against feedback<br> from outside
+            </h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="disc black">
+                        <li><strong>App can be used only with your work email address.</strong></li>
+                        <li><strong>Anonymised feedbacks and reports can be sent only within the company.</strong></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/em4.4.png" alt="Em">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--inner-content-->
 
+<!--footer-->
+<footer class="footer">
+    <div class="container">
+        <div class="foot-sect">
+            <div class="foot-col">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="JustEase"></a>
+                </div>
+                <ul>
+                    <li><a href="mailto:contact@justease.us"><img src="images/envelope.png"
+                                alt="Envelope">contact@justease.us</a></li>
+                    <li><a href="tel:+12482520831"><img src="images/flag1.png" alt="Flag">+1 248 252 0831</a></li>
+                    <li><a href="tel:+33783332553"><img src="images/flag2.png" alt="Flag">+33 7 83 33 25 53</a></li>
+                </ul>
+            </div>
+            <div class="foot-col">
+                <h4>Product</h4>
+                <h5><a href="employee-console.html">Employee Console</a></h5>
+                <ul>
+                    <li><a href="employee-console.html?id=anonymized1-1" class="scroll">Anonymized Toxicity
+                            Feedback</a></li>
+                    <li><a href="employee-console.html?id=anonymized1-3" class="scroll">Anonymized Non Toxicity
+                            Kudos</a></li>
+                    <li><a href="employee-console.html?id=bystander3-1" class="scroll">Bystander Intervention</a>
+                    </li>
+                    <li><a href="employee-console.html?id=anonymized2-1" class="scroll">Anonymized Report To HR</a>
+                    </li>
+                    <li><a href="employee-console.html?id=shield4" class="scroll">Shields Against Anonymity
+                            Abuse</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="foot-col">
+                <h4 class="none">&nbsp;</h4>
+                <h5><a href="hr-console.html">HR Console</a></h5>
+                <ul>
+                    <li><a href="inquiry-tool.html">Inquiry Tools</a></li>
+                    <li><a href="action-tool.html">Action Tools</a></li>
+                    <li><a href="dipstick-tool.html">Dipstick Tools for HR</a></li>
+                    <li><a href="case.html">Case Management/Analytics</a></li>
+                </ul>
+            </div>
+            <div class="foot-col">
+                <h4 class="none">&nbsp;</h4>
+                <h5><a href="pricing.html">Pricing</a></h5>
+            </div>
+            <div class="foot-col">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="why.html">Studies: Toxicity and Attrition</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="security.html">Security And Confidentiality</a></li>
+                </ul>
+            </div>
+            <div class="foot-col">
+                <h4>Who We Are?</h4>
+                <ul>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="future-project.html">Future Projects</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="bottom-footer">
+    <div class="container">
+        <ul class="social">
+            <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+        <p>JustEase All Right Reserved <a href="#">Privacy Policy</a></p>
+    </div>
+</div>
+<!--footer-->
 
-    <script>
-        $(window).scroll(function () {
-            if ($(window).scrollTop() > 300) {
-                $('#scrollTop').addClass('show');
-            } else {
-                $('#scrollTop').removeClass('show');
-            }
-        });
+<script>
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 300) {
+            $('#scrollTop').addClass('show');
+        } else {
+            $('#scrollTop').removeClass('show');
+        }
+    });
 
-        $('#scrollTop').on('click', function (e) {
-            e.preventDefault();
-            $('html, body').animate({ scrollTop: 0 }, '300');
-        });
-    </script>
+    $('#scrollTop').on('click', function (e) {
+        e.preventDefault();
+        $('html, body').animate({ scrollTop: 0 }, '300');
+    });
+</script>
 
-    <!--inner-page-route-script-->
-    <script type="text/javascript">
-        $('a.interLink').ready(function () {
-            var fullurl = window.location.href;
-            var divid = fullurl.split('?id=');
-            if (divid[1]) {
-                $('html, body').animate({ scrollTop: ($("#" + divid[1]).offset().top - 150) }, 1000);
-            }
-        });
-    </script>
-    <!--inner-page-route-script-->
-
-    <script>
-        $(function () {
-            $('.btn-collapse').on('click', function (e) {
-                $('#accordionExample .collapse').removeClass('in');
-                $("button").attr("aria-expanded", "false");
-            });
-        });
-        $(function () {
-            $('.btn-expand').on('click', function (e) {
-                $('#accordionExample .collapse').addClass('in');
-                $("button").attr("aria-expanded", "true");
-            });
-        });
-    </script>
-
-    <script>
-        window.Userback = window.Userback || {};
-        Userback.access_token = '36497|71009|5CHnYAi2iy4XVqsQzxup4qZHE';
-        (function (d) {
-            var s = d.createElement('script'); s.async = true;
-            s.src = 'https://static.userback.io/widget/v1.js';
-            (d.head || d.body).appendChild(s);
-        })(document);
-    </script>
+<script>
+    window.Userback = window.Userback || {};
+    Userback.access_token = '36497|71009|5CHnYAi2iy4XVqsQzxup4qZHE';
+    (function (d) {
+        var s = d.createElement('script'); s.async = true;
+        s.src = 'https://static.userback.io/widget/v1.js';
+        (d.head || d.body).appendChild(s);
+    })(document);
+</script>
 
 </body>
 
