@@ -177,14 +177,14 @@ animation-duration: .4s;
 .contact .flexed span{flex-basis: calc(100% - 190px);}
 
 /*--shield--*/
-.shield{background: #d4ebed;padding: 50px 0px;text-align: center;font-size: 13px;font-weight: 500;}
+.shield{background: #d4ebed;padding: 50px 0px;font-size:16px;font-weight: 500;}
 .shield h2 a{color: #3e3d3d;}
 .shield img.circle{position: absolute;top: 10%;left: 5%;}
 .shield h3{font-size: 21px;line-height: 1.24;position: relative;margin-bottom: 35px;}
 .shield h3:after{position: absolute;content:"";bottom: -14px;left: 0;right:0;width: 130px;height: 3px;background: #4cb6c2;margin: 0 auto;}
 .shield h3.black-border:after{background: #121a55;}
 .shield h4{font-size: 17px;color: #1d1d1d;margin: 0 0 25px;line-height: 24px;}
-.shield h5{font-size: 14px;color: #1d1d1d;margin: 0;line-height: 16px;position: relative;}
+.shield h5{font-size: 25px;color: #1d1d1d;margin: 80px 0px 20px;line-height: 16px;position: relative;font-weight: 800;}
 .shield p{margin-bottom: 0;}
 .shield img.m30{margin: 30px 0px;}
 .shield .shield-sect .shield-col:nth-child(1){text-align: right;margin-right: 20px;}
@@ -193,6 +193,11 @@ animation-duration: .4s;
 .shield .shield-sect .shield-col .arrow:before{position: absolute;top: 0%;left:0}
 .shield h4.custom-width{width: 240px;margin: 0px auto 25px;}
 .shield p.custom-width{width: 240px;margin: 0px auto;}
+.shield-left{margin-left: 26%;}
+.shield ul li{font-size: 17px;line-height: 40px;}
+.shield-imgs{display: flex;align-items: center;justify-content: space-between;margin-top: 40px;}
+.shield-imgs .imgs{flex-basis: 20%;text-align: center;}
+.shield-imgs .imgs:first-child{flex-basis: 25%;}
 
 /*--footer--*/
 .footer{padding: 40px 0px;background: #fcfcfc;}
@@ -419,18 +424,17 @@ h2.faqhead{width: calc(100% - 300px);margin: 0 auto;}
 .team h4.inner{padding:30px 0px;clear: both;}
 .console-content .team .row{display: initial;}
 .team .card{min-height:820px;border-radius: 10px;box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.16);background-color: #fff;padding: 20px 15px;border: 5px solid transparent;transition: all .5s ease-in-out;margin: 30px 0px;font-weight: 500;}
-.team .card.inline-card{display: inline-block;min-height: 340px;}
-.team .card.inline-card .card-header{width: 240px;margin: 10px 0;float: left;}
-.team .card.inline-card p.name{text-align: left;font-size: 30px;margin: 0px 0px 10px;}
-.team .card.inline-card p.post{text-align: left;font-weight: 700;margin-bottom: 15px;}
-.team .card.inline-card .card-desc{padding-left: 15px;font-size: 13px;float: right;width: calc(100% - 245px);}
-.team .card.inline-card .card-desc p.data{margin-bottom: 15px;}
+.team .card.inline-card{display: inline-block;min-height: 370px;}
+.team .card.inline-card .card-header{width: 240px;margin: 25px 0 0;float: left;}
+/* .team .card.inline-card p.name{text-align: left;font-size: 30px;margin: 0px 0px 10px;}
+.team .card.inline-card p.post{text-align: left;font-weight: 700;margin-bottom: 15px;} */
+.team .card.inline-card .card-desc{padding-left: 15px;font-size: 12px;float: right;width: calc(100% - 245px);}
 .team .card:hover{border: 5px solid #01a2b1;}
 .team .card-header{text-align: center;margin: 50px 10px 0px 10px;}
 .team .card-header img{border-radius: 10px;}
-.team p.post{font-size: 20px;color: #01a2b1;font-weight: 600;margin-bottom: 0;text-align: center;margin-bottom: 40px;}
-.team p.name{font-size: 36px;font-weight: 700;;margin: 30px 0px 10px;text-align: center;}
-.team p.data{margin-bottom: 20px;}
+.team p.post{font-size: 13px;color: #01a2b1;font-weight: 600;margin-bottom: 0;text-align: center;}
+.team p.name{font-size: 24px;font-weight: 700;;margin: 0px 0px 15px;text-align: center;}
+.team p.data{margin-bottom: 10px;line-height: 24px;}
 
 table.bullying{width:90%;font-size: 13px;font-weight: bold;color: #4d4d4d;border: 1px solid #000;margin: 30px auto 10px;border-collapse: inherit;}
 table.bullying tr th{background-color: #040b39;color: #fff;}
@@ -498,6 +502,8 @@ h2{font-size: 25px;}
 .shield .shield-sect .shield-col:nth-child(1){margin-right: 0px;}
 .shield .shield-sect .shield-col:nth-child(2){margin-left: 0px;}
 .our .oursect,.workplace .ourworkplace,.banner .row {margin: 50px 0px;display: block;text-align: center;}
+.shield-left{margin-left: 0px;}
+.shield-imgs{display: block;}
 .our h3,.future-sect .future-col .main:not(:last-child) ul{margin-bottom: 10px;}
 .our ul li{padding-left: 0px;}
 .banner img.wave1{right:0;left: inherit;top: -7%;}
